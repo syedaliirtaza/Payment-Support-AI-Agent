@@ -1,0 +1,21 @@
+/** @deprecated Import from `@/types/agent` instead. Re-exports for compatibility. */
+export type {
+  ActionResult,
+  AgentDecision,
+  AgentEvent,
+  ChecklistStep,
+  CompleteEvent,
+  CustomerData,
+  DecisionAction,
+  ErrorEvent,
+  PolicyChunk,
+  StepChecklist,
+  StepChecklistEntry,
+  ResponseDeltaEvent,
+  StepEvent,
+  StepId,
+  StepStatus,
+  Subscription,
+  SubscriptionStatus,
+  STEP_DISPLAY_ORDER,
+} from "@/types/agent";
